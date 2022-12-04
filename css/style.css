@@ -324,3 +324,20 @@ fieldset {
 #comment {
   margin-right: 40px;
 }
+
+.btn-previous {
+  background-color: rgb(48, 81, 119);
+  color: white;
+  border-radius: 5px;
+  min-width: 100px;
+  min-height: 50px;
+  font-size: large;
+  outline: none;
+  margin-left: -220px;
+  margin-top: 70px;
+}
+
+.btn-previous a {
+  color: white;
+  text-decoration: none;
+}
