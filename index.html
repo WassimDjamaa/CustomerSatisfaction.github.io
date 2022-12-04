@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 1/4</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <article class="survey-page">
+        <header class="survey-page-header">
+            <div class="title-box">
+                <h1 id="title">Customer Satisfaction Survey Apple</h1>
+                <img src="apple.png" height="50" width="50" alt="Apple Logo" class="logo">
+            </div>
+          
+            <div class="header-box">
+                
+          </div>
+        </header>
+      <p id="description"> We need your answers to imporve our service quality Apple</p>
+        <section class="survey-page-body">
+    
+            <form id="survey-form" name="surveyForm" action method="post">
+                <fieldset class="question-fieldset">
+                    <div class="about-info-row">
+                        <div class="labels"><label id="name-label" for="name">Name:</label></div>
+                        <div class="inputs"><input id="name" autofocus type="text" placeholder="Enter your name here"  required></div>
+                    <div class="labels">
+                     <label id="email-label" for="email">Email:</label>
+                    </div>
+                    <div class="inputs">
+                    <input id="email" type="email" placeholder="Enter your email here"  required>
+                    </div>
+                     <div class="labels">
+                         <label id="number-label" for="age">Age:</label>
+                     </div>
+                    <div class="inputs">
+                    <input id="number" type="number"  min="1" max="125" placeholder="Enter your age here" id="age" required>
+                     </div>
+                    </div>
+                </fieldset>
+                <fieldset class="question-fieldset">
+                    <h4 class="question-title"><label for="recommend">1. How likely are you to recommend this brand to a friend or colleague ?
+                    </label>
+                    </h4>
+    
+    
+                    <table id="recommend">
+                        <tr>
+                            <td>
+                                <input type="radio" id="radio1" name="recommendation" value="1" checked>
+                                <label for="radio1">1</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio2" name="recommendation" value="2">
+                                <label for="radio2">2</label>
+                            </td>
+                            <td>
+    
+                                <input type="radio" id="radio3" name="recommendation" value="3">
+                                <label for="radio3">3</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio4" name="recommendation" value="4">
+                                <label for="radio4">4</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio5" name="recommendation" value="5">
+                                <label for="radio5">5</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio6" name="recommendation" value="6">
+                                <label for="radio6">6</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio7" name="recommendation" value="7">
+                                <label for="radio7">7</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio8" name="recommendation" value="8">
+                                <label for="radio8">8</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio9" name="recommendation" value="9">
+                                <label for="radio9">9</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="radio10" name="recommendation" value="10">
+                                <label for="radio10">10</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" class="prompt-left">
+                                Not at all likely
+                            </td>
+    
+                            <td colspan="5" class="prompt-right">
+                                Extremely likely
+                            </td>
+                        </tr>
+                    </table>
+    
+                </fieldset>
+                 <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title">
+                            <label for="is_satisfied">2. Which Apple brand product do you have ?</label>
+                        </h4>
+                    </div>
+    
+                    <ul id="is_satisfied" class="right-tab">
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS1" name="radios" value="veryS">
+                            <label for="radioS1">Iphone</label>
+                        </li>
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">Ipad</label>
+                        </li>
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS3" name="radios" value="neitherNor">
+    
+                            <label for="radioS3">Ipod</label>
+                        </li>
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS4" name="radios" value="somDissat">
+    
+                            <label for="radioS4">Imac</label>
+                        </li>
+    
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS5" name="radios" value="veryDissat">
+    
+                            <label for="radioS5">MacBook</label>
+                        </li>
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS6" name="radios" value="veryDissat">
+    
+                            <label for="radioS6">Apple Watch</label>
+                        </li>
+                        <li class="input-holder-radio">
+                            <input type="radio" id="radioS7" name="radios" value="veryDissat">
+    
+                            <label for="radioS7">Others : (Please specify)</label>
+                            <input type="text" id="other" name="other" placeholder="Please specify">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title">
+                            <label for="typeOfProd">3. When you buy an Apple product, it is mainly:
+                                in?</label>
+                        </h4>
+                    </div>
+                    <div class="right-tab">
+                        <ul class="right-tab">
+                            <li id="q4">
+                                <input type="radio" id="radioS1" name="radios" value="veryS">
+                                <label>
+                                    For its symbolic value (attachment to the brand, design, notoriety)</label>
+                            </li>
+                            <br>
+                            <li id="q4"">
+                                <input type="radio" id="radioS2" name="radios" value="somewhat">
+                                <label for="radioS2">For its hedonic value (pleasure brought by the consumption of Apple products)</label>
+                            </li>
+                            <br>
+                            <li id="q4">
+                                <input type="radio" id="radioS3" name="radios" value="neitherNor">
+        
+                                <label for="radioS3">
+                                    For the functional value of the product (Apple's brand, design and reputation do not influence your choice)</label>
+                            </li>
+                            <br>
+                            <li id="q4">
+                                <input type="radio" id="radioS4" name="radios" value="somDissat">
+                                <label for="radioS4">Other (Please specify) : </label>
+                                <input type="text" id="other" name="other" placeholder="Please specify">
+                            </li>
+                    </div>
+    
+                </fieldset>
+                <fieldset>
+                    <div class="left-tab">
+                        <h4 class="question-title">
+                            <label for="prodDescription">4.  Why do you prefer Apple over its competitors?</label>
+                        </h4>
+                    </div>
+                    <div class="right-tab">
+                        <ul id="prodDescription" class="question4">
+                            <li>
+                                <label>
+                                    <input name="description" value="reliable" type="checkbox">
+                                    Quality
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="description" value="high quality" type="checkbox">
+                                    Design and innovation
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="description" value="useful" type="checkbox">
+                                    Ease of use of Apple products
+                                </label>
+                            </li>
+                            <li id="q4">
+                                <label>
+                                    <input name="description" value="unique" type="checkbox">
+                                    Operating system (ios), software and ability to share data between Apple devices
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="radioS4" name="radios" value="somDissat">
+                                <label for="radioS4">Other (Please specify) : </label>
+                                
+                            </li>
+                            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title5"><label for="comments">5. Have you ever switched from a product other than Apple (example: Samsung laptop) to an Apple product (IPhone)?</label></h4>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="radioS1" name="radios" value="veryS">
+                            <label for="radioS1">Yes, why ?</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">No, why ?</label>
+                        </li>
+                        <label for="">Commentary :</label>
+                        <input type="text">
+                    </ul>
+                    
+    
+                </fieldset>
+    
+                <button class="next-btn"> <a href="./pages/page2.html">Next</a></button>
+            </form>
+        </section>
+    
+    </article>
+    </body>
+
+</html>
+
+
+

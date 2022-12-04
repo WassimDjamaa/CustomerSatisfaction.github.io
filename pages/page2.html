@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 2/4</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <article class="survey-page">
+        <header class="survey-page-header">
+            <div class="title-box">
+                <h1 id="title">Customer Satisfaction Survey Apple</h1>
+                <img src="apple.png" height="50" width="50" alt="Apple Logo" class="logo">
+            </div>
+          
+          
+            <div class="header-box">
+          </div>
+        </header>
+      <p id="description"> We need your answers to imporve our service quality Apple</p>
+        <section class="survey-page-body">
+    
+            <form id="survey-form" name="surveyForm" action method="post">
+             
+                <fieldset class="question-fieldset">
+                    <h4 class="question-title"><label for="recommend">6. 
+                        When you have to change one of your products (telephone, tablet, computer), do you tend to inquire about other brands or only about Apple's new products ?
+                    </label>
+                    </h4>
+    
+                   <ul>
+                        <li>
+                            <input type="radio" name="recommend" id="recommend" value="yes" required>
+                            <label for="recommend">Yes I look at the characteristics of several products of different brands</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="recommend" id="recommend" value="no" required>
+                            <label for="recommend">Yes I look at other brands but Apple is the first brand I consult</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="recommend" id="recommend" value="no" required>
+                            <label for="recommend">No, I mainly look at Apple products</label>    
+                        </li>
+                    </ul>
+                   </ul>
+    
+                </fieldset>
+                 <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title">
+                            <label for="is_satisfied">7. Are you attached to the Apple brand ?</label>
+                        </h4>
+                    </div>
+    
+                    <ul id="is_satisfied" class="right-tab">
+                        <li id="q4" class="input-holder-radio">
+                            <input type="radio" id="radioS1" name="radios" value="veryS">
+                            <label for="radioS1">Yes I really like this brand, I no longer plan to change brands</label>
+                        </li>
+                        <li  id="q4" class="input-holder-radio">
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">Yes, but I could be seduced by another product if it seems more interesting to me</label>
+                        </li>
+                        <li id="q4" class="input-holder-radio">
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">No, I have products from different brands</label>
+                        </li>
+                        <li id="q4" class="input-holder-radio">
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">Other (Please specify) :</label>
+                            <input type="text" name="other" id="other" placeholder="Please specify">
+                        </li>
+                    </ul>
+    
+                </fieldset>
+                <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title8">
+                            <label for="typeOfProd">8. Do you prefer to buy an Apple product, in an Apple store or in another store?</label>
+                        </h4>
+                    </div>
+                    <div class="right-tab">
+                        <ul>
+                            <li>
+                                <input type="radio" name="typeOfProd" id="typeOfProd" value="yes" required>
+                                <label for="typeOfProd">Apple Store</label>
+                            </li>
+                            <li id="q4">
+                                <input type="radio" name="typeOfProd" id="typeOfProd" value="no" required>
+                                <label for="typeOfProd">Distributor of the FNAC, Darty, E.LECLERC type, etc.</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="typeOfProd" id="typeOfProd" value="no" required>
+                                <label for="typeOfProd">No matter</label>    
+                            </li>
+                        </ul>
+                    </div>
+    
+                </fieldset>
+                <fieldset>
+                    <div class="left-tab">
+                        <h4 class="question-title">
+                            <label for="prodDescription">9. How often do you go to an Apple store?</label>
+                        </h4>
+                    </div>
+                    <div class="right-tab">
+                        <ul id="prodDescription" class="question4">
+                            <li>
+                                <label>
+                                    <input name="description" value="reliable" type="checkbox">
+                                    Never
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="description" value="high quality" type="checkbox">
+                                    Rarely
+                                </label>
+                            </li>
+                            <li id="q4">
+                                <label>
+                                    <input name="description" value="useful" type="checkbox">
+                                    Every time I walk or visit a city, whenever I see an Apple store
+                                    I tend to get into it                                </label>
+                            </li>
+                            <li id="q4">
+                                <label>
+                                    <input name="description" value="unique" type="checkbox">
+                                    Often / Very often
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset class="question-fieldset">
+                    <div class="left-tab">
+                        <h4 class="question-title5"><label for="comments">10. In your opinion, the Apple store represents a strong point for the brand compared to its competitors ?</label></h4>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="radioS1" name="radios" value="veryS">
+                            <label for="radioS1">Yes, why ?</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radioS2" name="radios" value="somewhat">
+                            <label for="radioS2">No ?</label>
+                        </li>
+                        <label for="">Commentary :</label>
+                        <input type="text">
+                    </ul>
+                    
+    
+                </fieldset>
+    
+                <button class="next-btn"> <a href="../pages/page3.html">Next</a></button>
+            </form>
+        </section>
+    
+    </article>
+    </body>
+
+</html>
+
+
+
